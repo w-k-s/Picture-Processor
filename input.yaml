@@ -1,0 +1,11 @@
+tasks:
+    - sourceFile: "~/Pictures/source.jpg"
+      targetFile: "~/Pictures/destination.jpg" 
+      outputFormat: "JPEG"
+      steps:
+        - type: crop
+          bounds:
+            left: 0
+            top: 0
+            right: 100
+            bottom: 100
